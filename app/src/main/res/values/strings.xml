@@ -1,7 +1,17 @@
 <resources>
-    <string name="app_name">attore</string>
+    <string name="app_name">adottare</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="nombre">Nombre</string>
+    <string name="inscribir">Inscribirse</string>
+    <string name="edad">Edad</string>
+    <string name="datos_mascota">Datos mascota</string>
+    <string name="descrip">Ingresa una pequeña descripción</string>
+    <string name="datos_responsable">Datos Responsable</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="email">Correo electronico</string>
+    <string name="ciudad_departamento">Ciudad/Departamento</string>
 </resources>
