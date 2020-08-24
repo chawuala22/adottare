@@ -28,8 +28,6 @@ public class AddFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_add, container, false);
 
 
-
-
         return v;
     }
 

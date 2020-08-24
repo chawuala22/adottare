@@ -1,61 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".ui.add.AddFragment">
 
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#DFE4E8">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:background="#DFE4E8"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000"
                 android:layout_marginStart="150dp"
-                android:text="@string/datos_mascota" />
+                android:text="@string/datos_mascota"
+                android:textColor="#000" />
 
             <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/nombre"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:counterMaxLength="15"
-            android:id="@+id/namepet"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
-            app:boxBackgroundMode="outline">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="260dp"
-                android:layout_height="wrap_content"
-                android:inputType="text">
-
-            </com.google.android.material.textfield.TextInputEditText>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/namepet"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/edad"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
-                android:id="@+id/agepet"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:hint="@string/nombre"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -67,15 +48,35 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:hint="@string/descrip"
+                android:id="@+id/agepet"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
-                android:id="@+id/descpet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:hint="@string/edad"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/descpet"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="@string/descrip"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -89,21 +90,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000"
-                android:layout_marginTop="30dp"
                 android:layout_marginStart="120dp"
-                android:text="@string/datos_responsable" />
+                android:layout_marginTop="20dp"
+                android:text="@string/datos_responsable"
+                android:textColor="#000" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nombre"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
                 android:id="@+id/nombre"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:hint="@string/nombre"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -115,15 +116,15 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/direccion"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
                 android:id="@+id/direccion"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:hint="@string/direccion"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -135,15 +136,15 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/email"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
-                android:id="@+id/email"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:layout_marginTop="10dp"
+                android:hint="@string/email"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -155,15 +156,15 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ciudad"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/ciudad_departamento"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                app:counterMaxLength="15"
-                android:id="@+id/ciudad"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
-                app:boxBackgroundMode="outline">
+                android:hint="@string/ciudad_departamento"
+                app:boxBackgroundMode="outline"
+                app:counterMaxLength="15">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="260dp"
@@ -183,9 +184,9 @@
                     android:id="@+id/btnRegis1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="150dp"
                     android:layout_marginTop="30dp"
-                    android:background="#3b83bd"
+                    android:background="#49A3EC"
                     android:text="@string/inscribir" />
 
             </LinearLayout>
@@ -193,9 +194,6 @@
 
         </LinearLayout>
     </ScrollView>
-
-
-
 
 
 </LinearLayout>

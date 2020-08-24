@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "981355764158",
+    "firebase_url": "https://adottare-8a782.firebaseio.com",
+    "project_id": "adottare-8a782",
+    "storage_bucket": "adottare-8a782.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981355764158:android:1255479189d34787fa81ef",
+        "android_client_info": {
+          "package_name": "com.example.attore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981355764158-tjc58l0mm2m7hnvtd52r928rhj21udo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attore",
+            "certificate_hash": "15df89ecfb5b142cc750593c3108121e748a34dc"
+          }
+        },
+        {
+          "client_id": "981355764158-8n4q3go1tv58h9msc08efp2a8hihtpg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArogRjZaVfWhmFZzheoouVV4jMkjucvF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981355764158-8n4q3go1tv58h9msc08efp2a8hihtpg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
