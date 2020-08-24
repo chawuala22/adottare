@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.attore.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cat"
+        android:name="com.example.attore.ui.cat.CatFragment"
+        android:label="Gato"
+        tools:layout="@layout/fragment_cat" />
+
+    <fragment
+        android:id="@+id/dog"
+        android:name="com.example.attore.ui.dog.DogFragment"
+        android:label="Perro"
+        tools:layout="@layout/fragment_dog" />
+
+
+    <fragment
+        android:id="@+id/profesional"
+        android:name="com.example.attore.ui.addcitas.AddCitasFragment"
+        android:label="Citas"
+        tools:layout="@layout/fragment_add_citas" />
+
+    <fragment
+        android:id="@+id/add"
+        android:name="com.example.attore.ui.add.AddFragment"
+        android:label="Inscribir"
+        tools:layout="@layout/fragment_add" />
+
+
+
+</navigation>

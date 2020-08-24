@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/plus"
+        android:title="Inscribir" />
+
+
+    <item
+        android:id="@+id/dog"
+        android:icon="@drawable/dog"
+        android:title="Perro" />
+
+    <item
+        android:id="@+id/cat"
+        android:icon="@drawable/cat"
+        android:title="Gato" />
+
+    <item
+        android:id="@+id/profesional"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Agg Cita" />
+
+
+
+</menu>
